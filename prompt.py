@@ -20,8 +20,8 @@ Sarah: {response}
 suffix = """
 Relevant pieces of previous conversation:
 {chat_history}
-User: {input}
-Sarah: """
+Human: {input}
+AI: """
 
 # example_selector = LengthBasedExampleSelector(
 #     examples=examples,

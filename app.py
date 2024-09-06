@@ -2,7 +2,7 @@ import streamlit as st
 from model import get_memory,get_chat_response
 
 
-# Initialize the model and persona
+# #Initialize the model and persona
 # conversation_chain = initialize_model_and_persona()
 
 # # Streamlit UI#st.title("Chat with Sarah - Your Marketing and SDXL Prompt Expert")
@@ -43,7 +43,7 @@ from model import get_memory,get_chat_response
 #     message = {"role": "assistant", "content": full_response}
 #     st.session_state.chat_history.append(message)
 
-#Display chat_history
+# #Display chat_history
 # if st.session_state.chat_history:
 #     for message in st.session_state.chat_history:
 #         st.write(message)
@@ -55,9 +55,9 @@ if 'memory' not in st.session_state:
 if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []  # Initialize the chat history
 
-for message in st.session_state.chat_history:
-    with st.chat_message(message["role"]):
-        st.markdown(message["text"])
+# for message in st.session_state.chat_history:
+#     with st.chat_message(message["role"]):
+#         st.markdown(message["text"])
 
 input_text = st.chat_input("Chat with your bot here")  # Display a chat input box
 
