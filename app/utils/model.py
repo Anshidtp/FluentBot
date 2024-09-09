@@ -9,7 +9,7 @@ from langchain.chains.conversation.memory import (ConversationBufferMemory,
 
 from app.utils.character import *
 from app.utils.prompt import get_system_prompt
-from app.utils.character import few_shot_examples,persona
+from app.utils.persona import few_shot_examples,persona
 
 # from getpass import getpass
 

@@ -7,7 +7,7 @@ from langchain_core.example_selectors import LengthBasedExampleSelector
 # create a example template
 example_template = """
 User: {input}
-Sarah: {response}
+Emma: {response}
 """
 
 # create a prompt example from above template
@@ -21,7 +21,7 @@ suffix = """
 Relevant pieces of previous conversation:
 {chat_history}
 User: {input}
-Sarah: """
+Emma: """
 
 # example_selector = LengthBasedExampleSelector(
 #     examples=examples,
