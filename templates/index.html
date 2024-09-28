@@ -16,12 +16,12 @@
                     <div class="card-header msg_head">
                         <div class="d-flex bd-highlight">
                             <div class="img_cont">
-                                <img src="https://i.pinimg.com/736x/0e/2f/06/0e2f068bee19c8f3f79826b2b4766dd4.jpg" class="rounded-circle user_img">
+                                <img src="https://img.freepik.com/premium-photo/teacher-woman-avatar-icon-illustration-vector-style_131965-876.jpg" class="rounded-circle user_img">
                                 <span class="online_icon"></span>
                             </div>
                             <div class="user_info">
-                                <span>Genbook</span>
-                                <p>Ask me anything!</p>
+                                <span>CONVOMATE</span>
+                                <p>Your English AI Coach!</p>
                             </div>
                             <div class="ml-auto">
                                 <button id="newChat" class="btn btn-primary btn-sm">New Chat</button>
@@ -67,7 +67,7 @@
                     data: JSON.stringify({ input_text: rawText }),  // corrected payload key
                     success: function(data) {
                         var botResponse = data.text; // Get only the text response from the bot
-                        var botHtml = '<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="https://www.prdistribution.com/spirit/uploads/pressreleases/2019/newsreleases/d83341deb75c4c4f6b113f27b1e42cd8-chatbot-florence-already-helps-thousands-of-patients-to-remember-their-medication.png" class="rounded-circle user_img_msg"></div><div class="msg_cotainer">' + botResponse + '<span class="msg_time">' + str_time + '</span></div></div>';
+                        var botHtml = '<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="https://img.freepik.com/premium-photo/teacher-woman-avatar-icon-illustration-vector-style_131965-876.jpg" class="rounded-circle user_img_msg"></div><div class="msg_cotainer">' + botResponse + '<span class="msg_time">' + str_time + '</span></div></div>';
                         
                         $("#messageFormeight").append(botHtml);
 
