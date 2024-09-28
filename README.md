@@ -2,6 +2,8 @@
 ConvoMate: Your AI English Coach
 An AI-Powered English Mentor for Engaging and Effective Language Learning
 
+![Demo](https://github.com/Anshidtp/FluentBot/blob/main/img/demo.png)
+
 ## Description
 The ConvoMate is a web-based conversational application designed to help users improve their English language fluency through interactive chat sessions. The application uses a combination of natural language processing, language models, and conversational strategies to engage users in meaningful dialogues and provide feedback to enhance their speaking and comprehension skills.
 
